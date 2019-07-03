@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeng.Prototypes.Projection", "Zeng.Prototypes.Projection\Zeng.Prototypes.Projection.csproj", "{572E830E-2918-4736-9B62-E097AAB7C9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{572E830E-2918-4736-9B62-E097AAB7C9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572E830E-2918-4736-9B62-E097AAB7C9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572E830E-2918-4736-9B62-E097AAB7C9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572E830E-2918-4736-9B62-E097AAB7C9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B0A7D5-7195-4E0B-85D1-33E4272C4FBC}
+	EndGlobalSection
+EndGlobal
