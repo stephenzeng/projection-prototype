@@ -1,4 +1,4 @@
-﻿namespace Zeng.Prototypes.Projection
+﻿namespace Zeng.Prototypes.Projection.Common
 {
     public class EventHeader
     {

@@ -1,15 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Zeng.Prototypes.Projection.Common;
 using Zeng.Prototypes.Projection.Domain;
 
-namespace Zeng.Prototypes.Projection
+namespace Zeng.Prototypes.Projection.Readers
 {
-    public interface IEventHeaderReader
-    {
-        Task<IEnumerable<EventHeader>> ReadAsync(IEnumerable<EventBookmarkEntity> eventBookmarks);
-    }
-
     public class EventHeaderReader : IEventHeaderReader
     {
         public Task<IEnumerable<EventHeader>> ReadAsync(IEnumerable<EventBookmarkEntity> eventBookmarks)

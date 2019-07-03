@@ -1,6 +1,7 @@
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Zeng.Prototypes.Projection.Projections;
+using Zeng.Prototypes.Projection.Readers;
 
 namespace Zeng.Prototypes.Projection
 {

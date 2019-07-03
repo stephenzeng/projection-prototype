@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Zeng.Prototypes.Projection.Projections;
+using Zeng.Prototypes.Projection.Readers;
 
 namespace Zeng.Prototypes.Projection
 {
