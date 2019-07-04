@@ -34,8 +34,8 @@ namespace Zeng.Prototypes.Projection
             using (var transaction = await _dbContext.Database.BeginTransactionAsync())
             {
                 var bookmarks = await _dbContext.EventBookmarks.ToListAsync();
-                var headers = await _eventHeaderReader.ReadAsync(bookmarks); //can use a queue to manage throughput
-                var messages = await _eventMessageReader.ReadAsync(headers); //can use a queue to manage throughput
+                var headers = await _eventHeaderReader.ReadAsync(bookmarks);
+                var messages = await _eventMessageReader.ReadAsync(headers);
 
                 foreach (var message in messages)
                 {

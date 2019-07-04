@@ -5,7 +5,7 @@ namespace Zeng.Prototypes.Projection.Domain
 {
     public class LoanTransactionEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public Guid LoanId { get; set; }
         public LoanEntity Loan { get; set; }
 
